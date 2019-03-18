@@ -7,4 +7,7 @@ $(document).ready(function(){
     var nilai = $("#kotak").width();
     alert(nilai);
   });
+  $("#tombol3").click(function(){
+    $("#kotak").css("background-color","blue");
+  });
 });
